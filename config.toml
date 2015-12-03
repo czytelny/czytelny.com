@@ -1,0 +1,32 @@
+baseurl = "http://czytelny.com/"
+languageCode = "en-us"
+title = "czytelny"
+theme = "hugo-minimalist-theme"
+
+[params]
+    site_author = "Michal Chwedczuk"
+    site_description = "Blog about programming."
+    location = "Poland"
+    # All paths are relative to the baseurl. Put your files
+    # somewhere in the static folder.
+    avatar = "img/profile-image.jpg"
+    header_background = "img/desk_optimized.jpg"
+    header_title = "czytelny"
+    header_sub_title = "blog about programming"
+    copyright = "Powered by [Hugo](http://gohugo.io)."
+
+    # Enable gogle analytics by entering your tracking code
+    google_analytics = ""
+
+[social]
+    # Add your social network accounts to the profile section on the left
+    # by entering your username. The links to your account will be
+    # create automatically.
+    twitter   = ""
+    facebook  = ""
+    linkedin  = "michał-chwedczuk-b6004072"
+    behance   = ""
+    dribbble  = ""
+    instagram = ""
+    github    = "czytelny"
+    gplus     = ""
