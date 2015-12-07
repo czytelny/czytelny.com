@@ -187,7 +187,7 @@ kbd,
 pre,
 samp {
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-  font-size: .95em; }
+  font-size: 1em; }
 
 /* Forms
 ========================================================================== */
@@ -451,7 +451,7 @@ th {
    -----------------------------------------------------------------------------
    -----------------------------------------------------------------------------*/
 body {
-  color: #222222;
+  color: #333333;
   font-family: Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -459,7 +459,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300; }
+  font-weight: 600; }
 
 a {
   text-decoration: none;
@@ -626,7 +626,7 @@ hr {
   margin-bottom: 60px; }
 
 .btn {
-  border: solid 1px #ececec;
+  border: solid 1px #C9C9C9;
   background-color: #FFF;
   width: 100px;
   height: 35px;
