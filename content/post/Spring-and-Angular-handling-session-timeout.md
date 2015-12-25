@@ -1,6 +1,6 @@
 +++
 date = "2015-12-07T19:30:04+01:00"
-tags = []
+tags = ["AngularJS", "Spring", "Java", "Javascript"]
 title = "Spring and Angular - handling session timeout"
 
 +++
@@ -10,9 +10,9 @@ In other words - it doesn't work as expected.
 
 My first thought was to use Angular's interceptor to catch somehow `redirect` which Spring send to me. But because it's handled by a browser so I can't easily manipulate this as it's outside Angulars scope.
 
-Digging in a web lead me to following steps: 
-## Add a custom entry point 
-Which extends `LoginUrlAuthenticationEntryPoint` to overwrite default behaviour and send regular error code `UNAUTHORIZED (401)`. 
+Digging in a web lead me to following steps:
+## Add a custom entry point
+Which extends `LoginUrlAuthenticationEntryPoint` to overwrite default behaviour and send regular error code `UNAUTHORIZED (401)`.
 
 ```java
 @Configuration
@@ -50,7 +50,7 @@ public class CustomEntryPoint extends LoginUrlAuthenticationEntryPoint {
 }
 ```
 
-## Change spring security settings 
+## Change spring security settings
 To use this newly created custom entry point
 
 ```xml
@@ -69,5 +69,5 @@ myAppModule.config(['$httpProvider', function($httpProvider) {
 ```
 
 
-### What's left ? 
+### What's left ?
 Add standard interceptor which handle 401. It's piece of cake so I won't write it here :)

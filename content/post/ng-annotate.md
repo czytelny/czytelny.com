@@ -1,6 +1,6 @@
 +++
 date = "2015-12-22T22:25:25+01:00"
-tags = []
+tags = ["AngularJS", "Javascript", "ng-annotate"]
 title = "ng-annotate - it's worth to know it"
 
 +++
