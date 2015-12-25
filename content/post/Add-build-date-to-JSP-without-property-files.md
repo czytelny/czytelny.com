@@ -5,7 +5,7 @@ title = "Adding build date to JSP with Maven without property files."
 
 +++
 
-It's often a useful thing to add a build time stamp or SVN revision number to your webapp. It may be placed in a footer, or treated as query string for CSS, JS or other statics files. I know it is possible to add such information to *.property file and then fetch it from JSP. What I wasn't aware is the fact that I can do it easier, without any external property files.
+It's often a useful thing to add a build time stamp or SVN revision number to your webapp. It may be placed in a footer, or treated as query string for CSS, JS or other statics files. I know it is possible to add such information to `*.property` file and then fetch it from JSP. What I wasn't aware is the fact that I can do it easier, without any external property files.
 
 Add to web.xml file the following context-param.
 ```xml
