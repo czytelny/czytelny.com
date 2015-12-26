@@ -2,6 +2,7 @@ baseurl = "http://czytelny.com/"
 languageCode = "en-us"
 title = "czytelny"
 theme = "hugo-minimalist-theme"
+disqusShortname = "czytelny"
 
 [params]
     site_author = "Michal Chwedczuk"
