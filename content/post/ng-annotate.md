@@ -28,7 +28,7 @@ And I have been using it for a long time **but...**
 
 ### It's not perfect
 This kind of syntax is fine when you are passing one, two or even three services.
-But when you are injecting 15 of them? It's quite common in a large webapps.
+But when you are injecting 15 of them? It's quite common in large webapps.
 Then the chaos begins: you move some of them (replace, or change order) and forget to track and update this filthy strings.
 I can't count how many times I spend some ridiculous amount of time trying to figure out "why the heck it doesn't work?!".
 And here comes:
