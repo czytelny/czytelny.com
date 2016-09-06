@@ -1,6 +1,6 @@
 +++
 date = "2016-05-28T19:42:25+02:00"
-tags = []
+tags = ["javascript", "underscore"]
 title = "_.propertyOf - underscore/loadash"
 
 +++
