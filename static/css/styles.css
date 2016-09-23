@@ -188,7 +188,11 @@ pre,
 samp {
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 1em; 
-  background-color: #f9f2f4;
+  background-color: #f9f3f5;
+  padding: 0 4px;
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(158,158,158,1);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(158,158,158,1);
+  box-shadow: 1px 1px 3px 0px rgba(158,158,158,1);
   }
 
 /* Forms
