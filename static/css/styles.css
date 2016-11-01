@@ -490,7 +490,7 @@ hr {
 
 .container {
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   padding: 50px 0 0 0; }
 
 .author {
