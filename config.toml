@@ -6,7 +6,7 @@ disqusShortname = "czytelny"
 
 [params]
     site_author = "Michal Chwedczuk"
-    site_description = "Blog about programming."
+    site_description = "Personal blog about programming"
     location = "Poland"
     # All paths are relative to the baseurl. Put your files
     # somewhere in the static folder.
