@@ -13,7 +13,7 @@ disqusShortname = "czytelny"
     avatar = "img/profile-image.jpg"
     header_background = "img/desk_optimized.jpg"
     header_title = "czytelny"
-    header_sub_title = "blog about programming"
+    header_sub_title = "programming"
     copyright = "Powered by [Hugo](http://gohugo.io)."
 
     # Enable gogle analytics by entering your tracking code
