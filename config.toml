@@ -10,7 +10,7 @@ disqusShortname = "czytelny"
     location = "Poland"
     # All paths are relative to the baseurl. Put your files
     # somewhere in the static folder.
-    avatar = "img/profile-image.jpg"
+    avatar = "img/profile-image.png"
     header_background = "img/desk_optimized.jpg"
     header_title = "czytelny"
     header_sub_title = "programming"
